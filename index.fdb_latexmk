@@ -1,0 +1,10 @@
+# Fdb version 3
+["pdflatex"] 1529189598 "index.tex" "index.pdf" "index" 1529189655
+  "/usr/share/texmf-dist/tex/latex/base/article.cls" 1520157233 19821 310da678527a7dfe2a02c88af38079b7 ""
+  "/usr/share/texmf-dist/tex/latex/base/size10.clo" 1520157232 8292 e897c12e1e886ce77fe26afc5d470886 ""
+  "index.aux" 1529189589 8 a94a2480d3289e625eea47cd1b285758 ""
+  "index.tex" 1529189654 76 dcbbf5afc304f3faff0e6eddada4c38b ""
+  (generated)
+  "index.aux"
+  "index.log"
+  "index.pdf"
