@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.17)  3 JUL 2018 06:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.17)  4 JUL 2018 02:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -351,11 +351,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
 \openout2 = `chapters/1-index.aux'.
 
 
-(./chapters/1-index.tex) [2
+(./chapters/1-index.tex) [3
 
 ]
 \openout2 = `chapters/2-index.aux'.
@@ -372,10 +372,10 @@ Overfull \hbox (0.56795pt too wide) in paragraph at lines 6--7
 а-лыї и ѕГе-не-ра-тор ва-ри-ан-товї яв-ля-ет-ся предо-
  []
 
-[3
+[4
 
 
-]) [4]
+]) [5]
 \openout2 = `chapters/3-index.aux'.
 
  (./chapters/3-index.tex
@@ -384,13 +384,13 @@ Overfull \hbox (6.261pt too wide) in paragraph at lines 6--7
 -ни-цы ад-ми-ни-стра-тив-ной па-не-ли. Дизайн-концепция
  []
 
-) [5
+) [6
 
 
 ]
 \openout2 = `chapters/4-index.aux'.
 
- (./chapters/4-index.tex [6
+ (./chapters/4-index.tex [7
 
 
 ]
@@ -401,67 +401,72 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
- [7] [8] [9] [10] [11]
+ [8] [9] [10] [11] [12]
 Overfull \hbox (11.15564pt too wide) in paragraph at lines 258--261
  \T2A/cmr/bx/n/10 Спи-сок пре-зен-та-ции[] \T2A/cmr/m/n/10 -- фор-ма со-зда-ния
 /редактирования пре-зен-та-ции. Про-цесс со-зда-ния/редактирования
  []
 
-[12]) [13]
+[13]) [14]
 \openout2 = `chapters/5-index.aux'.
 
- (./chapters/5-index.tex [14
+ (./chapters/5-index.tex [15
 
 
-]) [15]
+] [16] [17] [18] [19] [20]
+Overfull \hbox (2.68549pt too wide) in paragraph at lines 569--570
+ \T2A/cmr/bx/n/10 На-зна-че-ние стра-ни-цы:[] \T2A/cmr/m/n/10 Стра-ни-ца пред-н
+а-зна-че-на для управ-ле-ния спис-ком пре-зен-та-ций ка-те-го-рии ѕПре-
+ []
+
+[21]) [22]
 \openout2 = `chapters/6-index.aux'.
 
- (./chapters/6-index.tex) [16
+ (./chapters/6-index.tex) [23
 
 
 ]
 \openout2 = `chapters/7-index.aux'.
 
+ (./chapters/7-index.tex [24
 
-(./chapters/7-index.tex [17
 
-
-]) [18]
+]) [25]
 \openout2 = `chapters/8-index.aux'.
 
- (./chapters/8-index.tex) [19
+
+(./chapters/8-index.tex) [26
 
 
 ]
 \openout2 = `chapters/9-index.aux'.
 
+ (./chapters/9-index.tex) [27
 
-(./chapters/9-index.tex) [20
 
-
-] (./index.aux (./chapters/1-index.aux)
-(./chapters/2-index.aux) (./chapters/3-index.aux) (./chapters/4-index.aux)
-(./chapters/5-index.aux) (./chapters/6-index.aux) (./chapters/7-index.aux)
-(./chapters/8-index.aux) (./chapters/9-index.aux)) ) 
+] (./index.aux
+(./chapters/1-index.aux) (./chapters/2-index.aux) (./chapters/3-index.aux)
+(./chapters/4-index.aux) (./chapters/5-index.aux) (./chapters/6-index.aux)
+(./chapters/7-index.aux) (./chapters/8-index.aux) (./chapters/9-index.aux)) ) 
 Here is how much of TeX's memory you used:
  2097 strings out of 492649
  25899 string characters out of 6135778
- 105006 words of memory out of 5000000
+ 106006 words of memory out of 5000000
  5935 multiletter control sequences out of 15000+600000
  8499 words of font info for 20 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 25i,4n,23p,1231b,265s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/font
-s/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/
-share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf-dis
-t/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf-dist/fonts/type1/p
-ublic/cm-super/sfrm1000.pfb>
-Output written on index.pdf (20 pages, 152541 bytes).
+ 25i,4n,23p,1231b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/
+usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/share/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-
+super/sfbx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1200.
+pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share
+/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on index.pdf (27 pages, 159005 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 116 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
