@@ -8,7 +8,9 @@
   \item Раздел;
   \item Пособие;
   \item Презентация;
-  \item Пользователь.
+  \item Пользователь;
+  \item Группа;
+  \item Привелегии;
 \end{enumerate}
 
 \paragraph{Сущность ЗАДАЧА} необходима для отображения различных заданий. ЗАДАЧА -- основная сущность в данной системе. Она должна иметь следующие параметры:
@@ -45,13 +47,49 @@
   \item Cсылка на скачивание PPTX
 \end{enumerate}
 
+\paragraph{Сущность ПОЛЬЗОВАТЕЛЬ} необходима для регистрации и авторизации на административной части сайта.
+ПОЛЬЗОВАТЕЛЬ должен содержать параметры:
+\begin{enumerate}
+  \item Имя
+  \item E-mail
+  \item Пароль
+  \item Группа, к которой принадлеит
+\end{enumerate}
+
+\paragraph{Сущность ГРУППЫ} необходима для разделения пользователей на группы с различными правами на сайте. Изначально в системе закладывается два типа пользователей:
+\begin{enumerate}
+  \item Гость -- права просмотра
+  \item Администратор -- права просмотра и редактирования
+\end{enumerate}
+ГРУППА должна содержать параметры:
+\begin{enumerate}
+  \item Название
+  \item Список привилегий
+\end{enumerate}
+
+\paragraph{Сущность ПРИВЕЛЕГИИ} необходимо для абстракции и дальнейшей агрегации привилегий по типу, например:
+\begin{enumerate}
+  \item Чтение;
+  \item Редактирование;
+\end{enumerate}
+Сущность ПРИВИЛЕГИЯ содержит параметры:
+\begin{enumerate}
+  \item Имя;
+\end{enumerate}
+
 \subsubsection{База данных}
+Схема БД:
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{60-index}
+\end{figure}
 \begin{enumerate}
   \item tasks;
   \item section;
   \item tutorial;
   \item presentation;
-  \item users.
+  \item users;
+  \item groups;
+  \item privileges;
 \end{enumerate}
 
 \paragraph{TASK} таблица хранящая в себе сущности типа "ЗАДАЧА". Структура таблицы:
@@ -161,8 +199,27 @@
 \end{enumerate}
 \subparagraph{id} -- уникальный идентификатор или системное имя.
 \subparagraph{name} -- имя пользователя.
-\subparagraph{psswd} -- пароль пользователя.
-\subparagraph{rights} -- права использования
+\subparagraph{groups id} -- идентификаторы груп.
+\subparagraph{password} -- пароль пользователя.
+\subparagraph{email} -- электронная почта пользователя.
+
+\paragraph{GROUPS} -- таблица, хранящая сущности "ГРУППЫ". Структура таблицы:
+\begin{enumerate}
+  \item id
+  \item name
+  \item privileges
+\end{enumerate}
+\subparagraph{id} -- уникальный индентификатор или системное имя;
+\subparagraph{name} -- название группы;
+\subparagraph{privileges} -- id привилегий.
+
+\paragraph{PRIVILEGES} -- таблица, хранящая сущности "ПРИВИЛЕГИИ". Структура таблицы:
+\begin{enumerate}
+  \item id
+  \item name
+\end{enumerate}
+\subparagraph{id} --  уникальный индентификатор или системное имя;
+\subparagraph{name} -- имя привелегии;
 
 \subsection{Списки}
 Для предоставление информации клиентам и администратору используются списки:
