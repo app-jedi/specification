@@ -1,0 +1,92 @@
+\section{Требования к выполнению работы}
+
+\subsection{Файловая структура}
+
+\dirtree{%
+  .1 /.
+    .2 assets/.
+      .3 fonts/\DTcomment{Директория со всеми шрифтами}.
+        .4 name-font-0/\DTcomment{Директория для шрифта с названием \texttt{name-font-0}}.
+        .4 name-font-1/\DTcomment{Директория для шрифта с названием \texttt{name-font-1}}.
+      .3 imgs/\DTcomment{Директория для изображений и фотографий}.
+      .3 icons/\DTcomment{Директория для иконок и логотипа}.
+      .3 videos/\DTcomment{Директория для видео}.
+      .3 gifs/\DTcomment{Директория для гифок}.
+    .2 psd/\DTcomment{Директория для макетов}.
+    .2 prototypes/\DTcomment{Директория для прототипов}.
+}
+\subsubsection{Требования к именованию и кодировке файлов }
+\begin{enumerate}
+  \item Все файлы должны иметь кодировку utf-8;
+  \item Файлы должны называться прозрачно и понятно на латиниц.
+\end{enumerate}
+
+\subsection{Требования к графическим элементам}
+\subsubsection{Требования к изображениям}
+\begin{enumerate}
+  \item Формат: \texttt{.SVG}
+  \item Размер: \texttt{любой}
+  \item Расположение: \texttt{./assets/imgs/}
+\end{enumerate}
+
+\subsubsection{Требования к логотипу}
+\begin{enumerate}
+  \item Формат: \texttt{.SVG}
+  \item Размер: \texttt{любой}
+  \item Расположение: \texttt{./assets/icons/}
+  \item Наименование: \texttt{logo.svg}
+\end{enumerate}
+
+\subsubsection{Требования к иконкам}
+\begin{enumerate}
+  \item Формат: \texttt{.SVG}
+  \item Расположение: \texttt{./assets/icons/}
+\end{enumerate}
+
+\subsubsection{Требования к фоновому изображению и картинкам}
+\begin{enumerate}
+  \item Формат: \texttt{.PNG}
+  \item Размер: \texttt{в соответствии с маштабом максимальным разрешению разрешением}
+  \item Расположение: \texttt{./assets/imgs/}
+\end{enumerate}
+
+\subsubsection{Требования к шрифтам}
+\begin{enumerate}
+  \item Формат: \texttt{.ttf} и \texttt{.woff}
+  \item Расположение: \texttt{Каждый шрифт должен распологаться в отдельной директории}
+  \item Имя директории: \texttt{Директория шрифта должна называться, как сам шрифт}
+  \item Расположение директории: \texttt{./assets/fonts/}
+\end{enumerate}
+
+\subsubsection{Требования к анимации}
+\begin{enumerate}
+  \item Описание: Описание анимаций должно быть предоставлено отдельным текстовым файлом, где действия описаны своими словами
+  \item Расположение: \texttt{./assets/gifs} и \texttt{./assets/videos}
+\end{enumerate}
+
+\subsection{Требования к предоставлени прототипов}
+Сторона предоставляющая прототипы: \texttt{Дизайнер (Исполнитель)}.\\
+Требования:
+\begin{enumerate}
+  \item На каждую страницу необходимо разработать по 1 прототипу;
+  \item Прототипы должны быть предоставлены в формате \texttt{.PNG};
+  \item Прототипы должны располагаться в директории \texttt{prototypes}, находящейся в корневой директории проекта.
+\end{enumerate}
+
+\subsection{Требования к предоставления макета }
+\begin{enumerate}
+  \item Макет должен быть выполнен на сетке, состоящей из 16 колонок
+  \item Макет должен быть разработан под 2 типа устройств:\\
+  \begin{enumerate}
+    \item десктоп
+    \item мобильное устройство
+  \end{enumerate}
+  \item Макет должен быть загружен в онлайн-сервис \texttt{zeplin.com}
+  \item Макет должен иметь расширение \texttt{.PSD}
+  \item Макет должен быть четко структурирован:
+  \begin{enumerate}
+    \item Слои не должны быть разбросаны
+    \item Слои должны иметь прозрачные и понятные названия
+    \item Слои должны быть логически разделены (пример: нельзя объединять текст и заголовок в один слой)
+  \end{enumerate}
+\end{enumerate}
