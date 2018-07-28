@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.17)  28 JUL 2018 18:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2018.6.17)  28 JUL 2018 21:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -516,22 +516,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
 
 ]
-[13] [14]) [15]
+[13] [14]
+<./assets/4-index-0.jpg, id=57, 2080.77374pt x 1031.855pt>
+File: ./assets/4-index-0.jpg Graphic file (type jpg)
+<use ./assets/4-index-0.jpg>
+Package pdftex.def Info: ./assets/4-index-0.jpg  used on input line 104.
+(pdftex.def)             Requested size: 486.25761pt x 241.1319pt.
+) [15 <./assets/4-index-0.jpg>]
 \openout2 = `chapters/5-index.aux'.
 
  (./chapters/5-index.tex) [16
 
 
-] 
+]
+
 AED: lastpage setting LastPage
 (./index.aux (./chapters/0-index.aux) (./chapters/1-index.aux)
 (./chapters/2-index.aux) (./chapters/3-index.aux) (./chapters/4-index.aux)
 (./chapters/5-index.aux)) ) 
 Here is how much of TeX's memory you used:
- 3412 strings out of 492649
- 45263 string characters out of 6135778
+ 3421 strings out of 492649
+ 45410 string characters out of 6135778
  126093 words of memory out of 5000000
- 7196 multiletter control sequences out of 15000+600000
+ 7201 multiletter control sequences out of 15000+600000
  12048 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,10n,25p,1289b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -545,10 +552,10 @@ b></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/t
 exmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf-dist/fonts
 /type1/public/cm-super/sfrm2074.pfb></usr/share/texmf-dist/fonts/type1/public/c
 m-super/sftt1000.pfb>
-Output written on index.pdf (16 pages, 184923 bytes).
+Output written on index.pdf (16 pages, 326274 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
+ 98 PDF objects out of 1000 (max. 8388607)
  68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
