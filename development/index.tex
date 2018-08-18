@@ -3,28 +3,22 @@
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
+
 \usepackage{parselines}
-\usepackage{graphicx}
-\usepackage{float}
-\usepackage{lastpage}
-
-% \usepackage{xcolor}
-% \usepackage{hyperref}
-% \definecolor{linkcolor}{HTML}{799B03}
-% \definecolor{urlcolor}{HTML}{799B03}
-
-\hypersetup{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor, colorlinks=true}
-
-\graphicspath{ {./assets/} }
 \linespread{1.5}
 \setlength{\parskip}{0.25cm}
+
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{ {./assets/} }
+
+\usepackage{lastpage}
 \usepackage[left=3cm,right=1.5cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
 
 \newcommand{\definition}[2]{
   \noindent
   {\large\texttt{#1}} -- #2\\
 }
-
 
 \begin{document}
 \include{chapters/0-index}
