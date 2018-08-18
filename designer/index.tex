@@ -8,37 +8,28 @@
 \usepackage{float}
 \usepackage{lastpage}
 
-% \usepackage{xcolor}
-% \usepackage{hyperref}
-% \definecolor{linkcolor}{HTML}{799B03}
-% \definecolor{urlcolor}{HTML}{799B03}
-
-\hypersetup{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor, colorlinks=true}
-
 \graphicspath{ {./assets/} }
 \linespread{1.5}
 \setlength{\parskip}{0.25cm}
 \usepackage[left=3cm,right=1.5cm,top=2cm,bottom=2cm,bindingoffset=0cm]{geometry}
+
+\usepackage{dirtree}
+% \input dirtree
 
 \newcommand{\definition}[2]{
   \noindent
   {\large\texttt{#1}} -- #2\\
 }
 
-
 \begin{document}
 \include{chapters/0-index}
 
 \tableofcontents
 
-\include{chapters/1-index}
-\include{chapters/2-index}
-\include{chapters/3-index}
-\include{chapters/4-index}
-\include{chapters/5-index}
-\include{chapters/6-index}
-\include{chapters/7-index}
-\include{chapters/8-index}
-\include{chapters/9-index}
+\include{chapters/1-index} % Общие сведения
+\include{chapters/2-index} % Требования к выполнению работы
+\include{chapters/3-index} % Требования к дизайн-концепции
+\include{chapters/4-index} % Описание проекта
+\include{chapters/5-index} % Приложение
 
 \end{document}
